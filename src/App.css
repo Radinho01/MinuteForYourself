@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Comfortaa:wght@300..700&family=Comic+Relief:wght@400;700&family=M+PLUS+Rounded+1c&family=Noto+Sans+Glagolitic&display=swap");
 :root {
   --color1: #1e2a38;
   --color2: #253f4f;
@@ -107,7 +106,7 @@ body {
   text-align: center;
   color: whitesmoke;
   font-size: 5vh;
-  font-family: "Caveat Brush", cursive;
+  font-family: "Comic Relief", system-ui;
 }
 
 .audio-menu {
@@ -158,7 +157,7 @@ body {
 /* --filter */
 
 .filterTitle {
-  font-family: "Caveat Brush", cursive;
+  font-family: "Comic Relief", system-ui;
 }
 
 /* Subtitle ###################################################################### */
@@ -170,7 +169,7 @@ body {
   text-align: center;
   color: whitesmoke;
   font-size: 3vh;
-  font-family: "Caveat Brush", cursive;
+  font-family: "Comic Relief", system-ui;
   transition: opacity 0.5s ease;
 }
 
