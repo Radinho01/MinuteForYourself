@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap");
+
 :root {
   --color1: #1e2a38;
   --color2: #253f4f;
@@ -213,6 +215,9 @@ body {
   .volum-settings-container {
     width: 220px !important;
   }
+  .filter-title {
+    margin-right: 5px;
+  }
 
   .seconds {
     font-size: 30px;
@@ -221,7 +226,7 @@ body {
 
 @media (max-width: 340px) {
   .title {
-    font-size: 2vh;
+    font-size: 12px;
   }
   .timer-container {
     width: 20vw;
@@ -232,5 +237,22 @@ body {
   }
   .start {
     font-size: 25px !important;
+  }
+  .filter-container {
+    justify-content: center;
+  }
+  .filter-title {
+    font-size: 15px !important;
+  }
+  .filter-dropdown {
+    width: 60% !important;
+  }
+  .audio-settings {
+    width: 2vh;
+    height: 2vh;
+    padding-top: 4px;
+  }
+  .subtitle {
+    font-size: 2vh;
   }
 }

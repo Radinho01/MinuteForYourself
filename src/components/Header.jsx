@@ -3,6 +3,7 @@ import { useState, useRef, useEffect } from "react";
 import { LuAudioLines } from "react-icons/lu";
 import { FaVolumeUp, FaVolumeMute } from "react-icons/fa";
 import { audioTracks } from "../../public/audioConstants"; // prilagodi putanju ako treba
+import "../App.css";
 
 export default function Header({ onAudioChange }) {
   const [showAudioMenu, setShowAudioMenu] = useState(false);
@@ -163,6 +164,7 @@ export default function Header({ onAudioChange }) {
               }}
             >
               <p
+                className="filter-title"
                 style={{ color: "whitesmoke", width: "20%", marginLeft: "5%" }}
               >
                 Filter:
@@ -172,6 +174,7 @@ export default function Header({ onAudioChange }) {
                 value={selectedCategory}
                 onChange={(e) => handleCategoryChange(e.target.value)}
                 style={{ width: "80%", height: "50%", textAlign: "center" }}
+                className="filter-dropdown"
               >
                 <option value="all">All</option>
                 <option value="rain">Rain</option>
