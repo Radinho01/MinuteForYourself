@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Comfortaa:wght@300..700&family=Comic+Relief:wght@400;700&family=M+PLUS+Rounded+1c&family=Noto+Sans+Glagolitic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap");
+
 :root {
   --color1: #1e2a38;
   --color2: #253f4f;
@@ -38,7 +39,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10vh;
+  margin-top: 8vh;
 }
 
 /* Timer ########################################################################3333 */
@@ -97,7 +98,7 @@ body {
   padding: 0 40px;
   box-sizing: border-box;
   justify-content: space-between;
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
 }
 
 .title {
@@ -106,7 +107,9 @@ body {
   text-align: center;
   color: whitesmoke;
   font-size: 5vh;
-  font-family: "Comic Relief", system-ui;
+  font-family: "Inknut Antiqua", serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .audio-menu {
@@ -157,19 +160,19 @@ body {
 /* --filter */
 
 .filterTitle {
-  font-family: "Comic Relief", system-ui;
+  font-family: "Inknut Antiqua", serif;
 }
 
 /* Subtitle ###################################################################### */
 
 .subtitle {
-  margin-top: 15vh;
+  margin-top: 8vh;
   justify-content: center;
   width: 100%;
   text-align: center;
   color: whitesmoke;
   font-size: 3vh;
-  font-family: "Comic Relief", system-ui;
+  font-family: "Inknut Antiqua", serif;
   transition: opacity 0.5s ease;
 }
 

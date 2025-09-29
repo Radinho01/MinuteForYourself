@@ -148,7 +148,7 @@ export default function Timer({ audioSettings }) {
               color: "white",
               cursor: "pointer",
               fontSize: "40px",
-              fontFamily: "Comic Relief",
+              fontFamily: "Inknut Antiqua",
             }}
             className="start"
           >
@@ -166,7 +166,7 @@ export default function Timer({ audioSettings }) {
               color: "whitesmoke",
               fontSize: "40px",
               fontWeight: "bold",
-              fontFamily: "Comic Relief",
+              fontFamily: "Inknut Antiqua",
             }}
             className="seconds"
           >

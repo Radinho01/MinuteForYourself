@@ -1,9 +1,9 @@
 // Header.jsx
 import { useState, useRef, useEffect } from "react";
-import { LuAudioLines } from "react-icons/lu";
 import { FaVolumeUp, FaVolumeMute } from "react-icons/fa";
 import { audioTracks } from "../../public/audioConstants"; // prilagodi putanju ako treba
 import "../App.css";
+import { IoMenu } from "react-icons/io5";
 
 export default function Header({ onAudioChange }) {
   const [showAudioMenu, setShowAudioMenu] = useState(false);
@@ -70,18 +70,17 @@ export default function Header({ onAudioChange }) {
         justifyContent: "space-between",
         padding: "0 20px",
         marginBottom: "20px",
+        flexDirection: "column",
       }}
     >
       <div></div>
-
       <div>
         <p className="title">
           Take a minute for <b style={{ color: "#2bae8b" }}>YOURSELF</b>
         </p>
       </div>
-
-      <div style={{ position: "relative" }}>
-        <LuAudioLines
+      <div style={{ position: "relative", zIndex: 10000 }}>
+        <IoMenu
           size={40}
           title="Audio settings"
           style={{ cursor: "pointer" }}
@@ -96,7 +95,8 @@ export default function Header({ onAudioChange }) {
             style={{
               position: "absolute",
               top: "110%",
-              right: 0,
+              left: "50%",
+              transform: "translateX(-50%)",
               background: "#1e2a38cc",
               padding: "10px",
               borderRadius: "10px",
