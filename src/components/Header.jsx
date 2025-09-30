@@ -75,9 +75,9 @@ export default function Header({ onAudioChange }) {
     >
       <div></div>
       <div>
-        <p className="title">
+        <h1 className="title">
           Take a minute for <b style={{ color: "#2bae8b" }}>YOURSELF</b>
-        </p>
+        </h1>
       </div>
       <div style={{ position: "relative", zIndex: 10000 }}>
         <IoMenu

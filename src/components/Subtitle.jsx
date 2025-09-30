@@ -25,7 +25,7 @@ export default function Subtitle() {
 
   return (
     <div>
-      <p className={`subtitle ${fadeClass}`}>{subtitle}</p>
+      <h2 className={`subtitle ${fadeClass}`}>{subtitle}</h2>
     </div>
   );
 }
